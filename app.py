@@ -11,7 +11,7 @@ if 'saldo_vr' not in st.session_state:
 if 'produtos' not in st.session_state:
     st.session_state.produtos = []
 
-st.title("🧾 Calculadora de Compras com VR")
+st.title("🧾 Calculadora de Compras")
 
 # --- SALDO VR ---
 saldo_input = st.number_input("Informe seu saldo no VR:", min_value=0.0, step=0.01, value=st.session_state.saldo_vr)
